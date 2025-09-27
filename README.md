@@ -1,18 +1,4 @@
 # Coding-1
-
-Bu proje bir Python başlangıç projesidir.
-
-## Başlangıç
-
-Ana dosya: `main.py`
-
-### Örnek Kod
-
-```python
-print("Merhaba, Python dünyası!")
-```
-
-## Kurulum
-
-Gerekli paketler için `requirements.txt` dosyasını kullanabilirsiniz.
-p
+This is a simple starting project for python and it consists of a simple caesar sipher.
+#Example Code
+print(helloworld
