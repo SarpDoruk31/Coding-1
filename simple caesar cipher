@@ -1,0 +1,11 @@
+def caesar(text,shift):
+    lower_alphabet = "abcdefghijklmnopqrstuvwxyz"
+    upper_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    shifted_lower = lower_alphabet[shift:] + lower_alphabet[:shift]
+    shifted_upper = upper_alphabet[shift:] + upper_alphabet[:shift]
+    translation_table = str.maketrans(lower_alphabet + upper_alphabet, shifted_lower + shifted_upper)
+    return text.translate(translation_table)
+text= "helloworld"
+shift = 4
+encrypted_text = caesar(text,shift)
+print("encrypted text:" , encrypted_text)
